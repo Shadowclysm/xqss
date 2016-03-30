@@ -1,0 +1,32 @@
+div.xqss.float {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    text-align:center;
+    z-index : 12345;
+}
+div.xqss.msg {
+    background-color:#4C74C7;
+    border-radius:0 0 5px 5px;
+    color:#FFFFFF;
+    display:inline;
+    font-family:arial,sans-serif;
+    font-size:small;
+    font-weight:bold;
+    padding:3px;
+}
+input.xqss.console {
+    position:fixed;
+    top:10px;
+    left:10px;
+    z-index:123456;
+    background-color:#4C74C7;
+    border:5px solid #B0D0F0;
+    border-radius:5px;
+    color:#FFFFFF;
+    font-family:arial,sans-serif;
+    font-weight:bold;
+    padding:3px;
+}
+
