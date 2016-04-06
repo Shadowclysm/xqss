@@ -31,7 +31,7 @@
     var height=$('tr',table).size();
     for(i=1;i<width;i++){
         let query='http://www.wolframalpha.com/input/?i=quadratic fit{';
-        for(i2=1;i2<height;i2++){
+        for(i2=1;i2<=height;i2++){
             var data=$('tr:eq('+i2+') > :eq('+i+')',table).html().trim();
             if(data.contains('–')){
                 data=(parseInt(data.substring(0,data.indexOf('–'))) + parseInt(data.substring(data.indexOf('–')+1,data.length))) / 2.0;
